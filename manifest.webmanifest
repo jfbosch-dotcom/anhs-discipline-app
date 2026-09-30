@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "ANHS Discipline App",
+  "short_name": "ANHS Discipline",
+  "description": "My Trop, My Trots",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f4f8",
+  "theme_color": "#160C5B",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
