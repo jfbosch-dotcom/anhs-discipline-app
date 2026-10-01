@@ -1,1 +1,1 @@
-window.ANHS_CONFIG = {api:'https://api-anhs.jbproducts.co.za/api',version:'v0.97a-1 Alpha'};
+window.ANHS_CONFIG = {api:'https://api-anhs.jbproducts.co.za/api',version:'v0.97a-2 Alpha'};
