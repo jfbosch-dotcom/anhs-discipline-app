@@ -4,3 +4,6 @@
 
 #request-status{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);z-index:1000;background:#160C5B;color:white;padding:10px 20px;border-radius:8px;box-shadow:0 2px 8px #0003;pointer-events:none}
 #request-status[hidden]{display:none}
+
+/* Navigation feedback never blocks Home, Back or destination menus. */
+.loading-note{display:flex;align-items:center;justify-content:center;gap:16px;padding:24px 12px;min-height:110px;color:#160C5B}.loading-note img{object-fit:contain}.spinner{width:20px;height:20px;border:3px solid #ddd;border-top-color:#6F1312;border-radius:50%;animation:loading-spin .8s linear infinite;flex-shrink:0}.startup-loader{position:fixed;inset:0;background:rgba(255,255,255,.97);z-index:1000;display:flex;align-items:center;justify-content:center}.startup-loader[hidden]{display:none}.startup-loader .loading-note{flex-direction:column;text-align:center;max-width:330px}.startup-loader img{width:96px;height:96px}@keyframes loading-spin{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.spinner{animation:none}}

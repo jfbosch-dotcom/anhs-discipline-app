@@ -2,7 +2,7 @@
   "id": "/",
   "name": "ANHS Discipline App",
   "short_name": "ANHS Discipline",
-  "description": "My Trop, My Trots",
+  "description": "Ons Trop, Ons Trots",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
