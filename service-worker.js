@@ -1,4 +1,4 @@
-const CACHE='anhs-097a-3-shell';
+const CACHE='anhs-097a-4-shell';
 const FILES=['./','./index.html','./style.css','./app.js','./school-config.js','./manifest.webmanifest','./anhs-crest.png','./icon.svg','./jb-productions-logo-large.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES))));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
