@@ -7,3 +7,8 @@
 
 /* Navigation feedback never blocks Home, Back or destination menus. */
 .loading-note{display:flex;align-items:center;justify-content:center;gap:16px;padding:24px 12px;min-height:110px;color:#160C5B}.loading-note img{object-fit:contain}.spinner{width:20px;height:20px;border:3px solid #ddd;border-top-color:#6F1312;border-radius:50%;animation:loading-spin .8s linear infinite;flex-shrink:0}.startup-loader{position:fixed;inset:0;background:rgba(255,255,255,.97);z-index:1000;display:flex;align-items:center;justify-content:center}.startup-loader[hidden]{display:none}.startup-loader .loading-note{flex-direction:column;text-align:center;max-width:330px}.startup-loader img{width:96px;height:96px}@keyframes loading-spin{to{transform:rotate(360deg)}}@media(prefers-reduced-motion:reduce){.spinner{animation:none}}
+
+.navigation{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-bottom:16px}.navigation button{min-height:44px}#notice{position:static;margin:12px auto;max-width:900px;transform:none;max-height:none;overflow-wrap:anywhere;pointer-events:none}#request-status{position:static;transform:none;text-align:center;box-shadow:none;border-radius:0;padding:6px 12px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px}.form-error button{margin-top:10px}.loading-note img{width:56px;height:56px}
+
+/* Reserve feedback space so background requests cannot move a button under a tap. */
+#request-status{height:32px;min-height:32px;display:flex;align-items:center;justify-content:center;background:transparent;color:var(--muted);font-size:13px}#request-status[hidden]{display:flex;visibility:hidden}
